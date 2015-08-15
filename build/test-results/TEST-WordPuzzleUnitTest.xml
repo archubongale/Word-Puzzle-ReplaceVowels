@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="WordPuzzleUnitTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2015-08-15T00:45:36" hostname="Archanas-MacBook-Pro.local" time="0.001">
+  <properties/>
+  <testcase name="check_toReplaceVowelA_true" classname="WordPuzzleUnitTest" time="0.0"/>
+  <testcase name="check_toReplaceVowelE_true" classname="WordPuzzleUnitTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
