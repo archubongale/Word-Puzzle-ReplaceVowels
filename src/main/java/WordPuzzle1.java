@@ -34,11 +34,7 @@ public class WordPuzzle1 {
 
   public static String replaceVowels(String userInput) {
     String output = " ";
-
-
-  output=userInput.replaceAll("[AEIOUaeriou]","-");
-
-
-          return output;
+    output=userInput.replaceAll("[AEIOUaeriou]","-");
+    return output;
       }
 }

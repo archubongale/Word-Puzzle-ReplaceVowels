@@ -18,7 +18,7 @@ public class WordPuzzleTest extends FluentTest {
   @Test
   public void rootTest() {
   goTo("http://localhost:4567/");
-  assertThat(pageSource()).contains("Replace string to Vowels!");
+  assertThat(pageSource()).contains("Replace Vowels with Dash!");
   }
 
   @Test
@@ -26,7 +26,7 @@ public class WordPuzzleTest extends FluentTest {
     goTo("http://localhost:4567/");
     fill("#userInput").with("East");
     submit(".btn");
-    assertThat(pageSource()).contains("Replace string to Vowels!");
+    assertThat(pageSource()).contains("Replace Vowels with Dash!");
   }
 
 }
